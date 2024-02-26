@@ -4,11 +4,14 @@ let nombre = "Seiya";
 let anime = "Saint Seiya";
 let edad = 17;
 
+
+//Este es un objeto llamado personaje
 let personaje = {
     nombre: "Seiya",
     anime: "Saint Seiya",
     edad: 17,
 };
+
 
 //Mostramos todo el objeto personaje
 console.log(personaje);
