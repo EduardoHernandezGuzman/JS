@@ -14,4 +14,4 @@ console.log(
 const espacios = ".     Hola      Mundo     ";
 console.log(
     espacios.trim() // Nos va a quitar los espacios a la izquierda y a la derecha
-); 
+);
