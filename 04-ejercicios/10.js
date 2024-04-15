@@ -12,6 +12,7 @@
                     // console.log(resultado);
 
 
+                    
 let longitud = 7;
 
 function crearArray (n) {
@@ -19,7 +20,7 @@ function crearArray (n) {
         return "n no puede ser menor que cero, introduce otro número";
     }
         let array = [ ];
-        
+
         for (let i = 0 ; i < n ; i++) {
             array[i] = i +1
     };
