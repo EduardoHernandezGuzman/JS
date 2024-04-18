@@ -17,6 +17,7 @@ console.log(arrayDividido);
 let arrayDivididoNuevo = nuevoArray.slice(3);
 console.log(arrayDivididoNuevo);
 
+// Si a slice() no le pasamos ningún argumento, nos hace
+// una copia del array
 let copiaDelArray = nuevoArray.slice();
 console.log(copiaDelArray);
-

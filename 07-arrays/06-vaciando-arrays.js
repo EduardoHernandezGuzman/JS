@@ -11,7 +11,6 @@ arreglo2.length = 0;
 console.log(arreglo2);
 
 // Utilizando splice()
-
 let arreglo3 = ["elemento5", "elemento6"];
 arreglo3.splice(0, arreglo3.length);
 console.log(arreglo3);
