@@ -60,7 +60,7 @@ const menorAMayor = usuariosJuntos.sort( (a, b) => {
 
 // Crear plantilla HTML
 const HTML = menorAMayor.map( (i) => {
-    return `<li>${i.nombre}</li>`
+    return `<li>Nombre: ${i.nombre}, Edad: ${i.edad}</li>`
 } )
 
 
