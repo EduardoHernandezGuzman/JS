@@ -22,6 +22,8 @@ let multiplica = function multi () {
     console.log("Multiplicando ...");
 };
 
+// Fat arrow function (función flecha)
+// Siempre va a ser anónima
 const divide = () => {
     console.log("Dividiendo ...");
 };
