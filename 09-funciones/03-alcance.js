@@ -15,6 +15,7 @@ alcance();
 
 
 
+
 function masAlcance () {
     console.log(saludo);
     console.log(vieja);
@@ -29,6 +30,9 @@ function masAlcance () {
 masAlcance();
 
 
+
+
+// Aquí no podemos acceder a las variables fuera de la función
 function otroAlcance () {
     function saludo () {};
     var vieja = "ya no se usa";
@@ -42,3 +46,6 @@ console.log(saludo);
     console.log(constante);
 
 otroAlcance();
+
+
+// Estás 3 funciones nos van a arrojar diferentes problemas de alcance
